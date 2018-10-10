@@ -33,7 +33,6 @@ ul{
 }
 
 .logo__title {
-    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 30px;
     letter-spacing: 2px;
@@ -71,11 +70,11 @@ ul{
     font-family: "Roboto Mono", monospace;
 }
 
-.notes{
+.snaps{
     margin-top:20px
 }
 
-.notes li{
+.snaps li{
     -webkit-transform: translateY(0%);
     transform: translateY(0%);
     transition: -webkit-transform 400ms ease;
@@ -114,7 +113,7 @@ li:nth-child(5) {
     animation-delay: calc(5 * 100ms);
 }
 
-.notes li > .title{
+.snaps li > .title{
     font-size: 14px;
     margin: 0!important;
     padding: .6rem;
@@ -122,14 +121,14 @@ li:nth-child(5) {
     color: #796e6e
 }
 
-.notes li > .date{
+.snaps li > .date{
     padding: .6rem;
     grid-row: 1/-1;
     text-align: right;
     color: #757575;
 }
 
-.notes li .date span {
+.snaps li .date span {
     font-size: 12px;
 }
 
