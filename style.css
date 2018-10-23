@@ -55,11 +55,11 @@ ul{
     border-bottom: solid 4px #fbf9bd;
 }
 
-.add-note {
+.add-snap {
     margin-bottom: 20px;
 }
 
-.add-note__input {
+.add-snap__input {
     width: 100%;
     min-height: 70px;
     padding: 0 20px;
