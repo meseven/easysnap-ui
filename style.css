@@ -133,6 +133,11 @@ li:nth-child(5) {
   font-weight: bold;
 }
 
+.loading{
+  text-align: center;
+  padding: 1rem
+}
+
 .counter {
   font-family: "Roboto Mono", monospace;
   text-align: center;
